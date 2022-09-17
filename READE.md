@@ -22,7 +22,7 @@
     * Chaque aéroport dessert une ou plusieurs villes.
     * Des compagnies aériennes proposent différents vols.
 
-- ***
+---
 
 # Modalités pédagogiques 🛠
 
@@ -59,44 +59,44 @@
 # Règles de gestion ⛓  
 
         --------RESERVATION 🧾--------  
-    - un email de contact
-    - un numéro de téléphone
-    - nom
-    - prenom
-    - un n° de passport
-    - peu être annuler par le client
-    - une réservation ne peu être que pour une seul personne et un seul vol
-    - numéro de réservation
-    - peu être confirmé par l'agence
+    - Un email de contact
+    - Un numéro de téléphone
+    - Nom
+    - Prenom
+    - Un n° de passport
+    - Peu être annuler par le client
+    - Une réservation ne peu être que pour une seul personne et un seul vol
+    - Numéro de réservation
+    - Peu être confirmé par l'agence
 
         --------VOL 🛫--------
-    - le vol contient un numero de vol  
+    - Le vol contient un numero de vol  
     - aeroport de depart, une date, une heure
-    - aeroport d'arrive, une date, une heure  
-    - vol avec un ou plusieur passager  
-    - un vol ne peux pas être reservable ou non  
-    - un vol peut faire des escale
-    - le vol est un trajet d'un aeroport à un autre
-    - un vol peut être annulé par la compagnie
+    - Aeroport d'arrive, une date, une heure  
+    - Vol avec un ou plusieur passager  
+    - Un vol ne peux pas être reservable ou non  
+    - Un vol peut faire des escale
+    - Le vol est un trajet d'un aeroport à un autre
+    - Un vol peut être annulé par la compagnie
      
 
         --------COMPAGNIE 🏪--------
-    - contiens un nom
-    - peu avoir un ou plusieurs vol
+    - Contiens un nom
+    - Peu avoir un ou plusieurs vol
 
         ---------ESCALE 🔗---------
-    - une date et une heure d'arrivé  
-    - une date et une heure de départ  
-    - un aeroport d'arrivé  
-    - un aeroport de dépar 
+    - Une date et une heure d'arrivé  
+    - Une date et une heure de départ  
+    - Un aeroport d'arrivé  
+    - Un aeroport de dépar 
 
         --------AEROPORT 🛩--------
-    - ce trouve dans une ville  
+    - Ue trouve dans une ville  
 
         --------VILLE 🌇--------
 
-    - un nom de ville
-    - se trouve dans un pays
+    - Un nom de ville
+    - Se trouve dans un pays
 
         --------PAYS🌎--------
-    - nom de pays
+    - Nom de pays
