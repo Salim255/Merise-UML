@@ -20,11 +20,11 @@
     Chaque aéroport dessert une ou plusieurs villes.
     Des compagnies aériennes proposent différents vols.
 
-# Modalités pédagogiques ✍️
+# Modalités pédagogiques 🛠
 
     Travail en individuel. Livraison pour Mardi 20 Septembre 2022 09h00.
 
-# Critères de performance 🔥
+# Critères de performance ⚙️
 
     Un readme répertoriant les informations principales.
     Tous les diagrammes doivent correspondre à la notation officielle du standard UML et Merise
@@ -37,7 +37,7 @@
 
     Correction en groupe et revue des diagrammes sur Github
 
-# Livrables
+# Livrables ⏳
 
     Dans un dépôt Github :
     Pour la base de données :
@@ -52,13 +52,47 @@
     * Un diagramme de classe
     * Un diagramme de Séquence.
 
-# Règles de gestion   RESERVATION  
+# Règles de gestion ⛓  
 
--un email de contact
--un numéro de téléphone
--nom- prenom- un n° de passport- peu être annuler par le CLIENT  - une réservation ne peu être que pour une seul personne et un seul vol
+        --------RESERVATION 🧾--------  
+    - un email de contact
+    - un numéro de téléphone
+    - nom
+    - prenom
+    - un n° de passport
+    - peu être annuler par le client
+    - une réservation ne peu être que pour une seul personne et un seul vol
+    - numéro de réservation
+    - peu être confirmé par l'agence
 
-- numéro de réservationVOL  - le vol contient un numero de vol  - aeroport de depart, une date, une heure  - aeroport d'arrive, une date, une heure  - vol avec un ou plusieur passager  - un vol ne peux pas être reservable ou non  - un vol peut faire des escale dans un AEROPORT  - le vol est un trajet d'un aeroport à un autre  ESCALE- une date et une heure d'arrivé  - une date et une heure de départ  - un aeroport d'arrivé  - un aeroport de dépar AEROPORT- ce trouve dans une ville  
-  VILLE
-- un nom
-  se trouve dans une ville
+        --------VOL 🛫--------
+    - le vol contient un numero de vol  
+    - aeroport de depart, une date, une heure
+    - aeroport d'arrive, une date, une heure  
+    - vol avec un ou plusieur passager  
+    - un vol ne peux pas être reservable ou non  
+    - un vol peut faire des escale
+    - le vol est un trajet d'un aeroport à un autre
+    - un vol peut être annulé par la compagnie
+     
+
+        --------COMPAGNIE 🏪--------
+    - contiens un nom
+    - peu avoir un ou plusieurs vol
+
+        ---------ESCALE 🔗---------
+    - une date et une heure d'arrivé  
+    - une date et une heure de départ  
+    - un aeroport d'arrivé  
+    - un aeroport de dépar 
+
+        --------AEROPORT 🛩--------
+    - ce trouve dans une ville  
+
+        --------VILLE 🌇--------
+
+    - un nom de ville
+    - se trouve dans un pays
+
+        --------PAYS🌎--------
+    - nom de pays
