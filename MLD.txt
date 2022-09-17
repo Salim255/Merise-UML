@@ -1,0 +1,17 @@
+*******************************************************************************************
+       _______ MLD  créé le : Sat Sep 17 14:18:00 CEST 2022_________
+
+        Le MLD ou Modèle Logique des Données est simplement la représentation textuelle du MPD. Il s’agit juste de la représentation en ligne du schéma représentant la structure de la *base de données.                                                                    
+*******************************************************************************************
+
+
+- Ville (id_Ville, nom_ville-ville, #id_Pays)
+- Aeroport (id_Aeroport, nom_aeroport_Aeroport, #id_Ville)
+- Compagnie (id_Compagnie, nom_compagnie_Compagnie)
+- Reservation (id_Reservation, email_de_contact_Reservation, numero_de_tele_Reservation, num_vol_Reservation, nom_passager_Reservation, prenom_passager_Reservation, âge_passager_Reservation, num_passport_passager_Reservation, date_Reservation, prix_Reservation)
+
+- Vol (id_Vol, aeroport_depart_Vol, aeroport_arriver_Vol, date_depart_Vol, date_arriver_Vol,  heure_depart_Vol , heure_arriver_Vol, etat_Vol, num_vol_Vol, #id_Compagnie, #id_Aeroport, #id_Aeroport_décoller)
+
+- Pays (id_Pays, nom_pays_Pays)
+- associer (id_Vol, id_Reservation)
+- escale (id_Vol, id_Aeroport, aeroport_arriver_Escale, heure_arriver_Escale,date_arriver_Escale date_depart_Escale)
