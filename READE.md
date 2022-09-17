@@ -2,40 +2,44 @@
 
 # L'énoncé du projet 👮‍♀️
 
-    Votre client, une agence de voyages, souhaite proposer la possibilité de réserver en ligne des billets d'avion à leurs clients.
+- Votre client, une agence de voyages, souhaite proposer la possibilité de réserver en ligne des billets d'avion à leurs clients.
 
-    Votre mission est de concevoir à l'aide du standard UML la modélisation de la plateforme.
+- Votre mission est de concevoir à l'aide du standard UML la modélisation de la plateforme.
+
+---
 
     La plateforme devra permettre que :
 
-    Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
-    Un vol peut être annulé par la compagnie
-    Un client peut réserver un ou plusieurs vols, pour des passagers différents.
-    Une réservation concerne un seul vol et un seul passager.
-    Une réservation peut être annulée ou confirmée.
-    Un vol a un aéroport de départ et un aéroport d’arrivée.
-    Un vol a un jour et une heure de départ, et un jour et une heure d’arrivée.
-    Un vol peut comporter des escales dans des aéroports.
-    Une escale a une heure d’arrivée et une heure de départ.
-    Chaque aéroport dessert une ou plusieurs villes.
-    Des compagnies aériennes proposent différents vols.
+    * Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
+    * Un vol peut être annulé par la compagnie
+    * Un client peut réserver un ou plusieurs vols, pour des passagers différents.
+    * Une réservation concerne un seul vol et un seul passager.
+    * Une réservation peut être annulée ou confirmée.
+    * Un vol a un aéroport de départ et un aéroport d’arrivée.
+    * Un vol a un jour et une heure de départ, et un jour et une heure d’arrivée.
+    * Un vol peut comporter des escales dans des aéroports.
+    * Une escale a une heure d’arrivée et une heure de départ.
+    * Chaque aéroport dessert une ou plusieurs villes.
+    * Des compagnies aériennes proposent différents vols.
+
+- ***
 
 # Modalités pédagogiques 🛠
 
-    Travail en individuel. Livraison pour Mardi 20 Septembre 2022 09h00.
+    - Travail en individuel.
+    - Livraison pour Mardi 20 Septembre 2022 09h00.
 
 # Critères de performance ⚙️
 
-    Un readme répertoriant les informations principales.
-    Tous les diagrammes doivent correspondre à la notation officielle du standard UML et Merise
-    Les diagrammes doivent être exportés en format images facilement consultables (jpeg, png).
-    Minimum d'un commit par diagramme.
-
-    La conception Merise doit respecter au minimum les 3 premières formes normales.
+    - Un readme répertoriant les informations principales.
+    - Tous les diagrammes doivent correspondre à la notation officielle du standard UML et Merise
+    - Les diagrammes doivent être exportés en format images facilement consultables (jpeg, png).
+    - Minimum d'un commit par diagramme.
+    - La conception Merise doit respecter au minimum les 3 premières formes normales.
 
 # Modalités d'évaluation 👍
 
-    Correction en groupe et revue des diagrammes sur Github
+    - Correction en groupe et revue des diagrammes sur Github
 
 # Livrables ⏳
 
